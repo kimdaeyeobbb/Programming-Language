@@ -7,7 +7,3 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 
-
-#class 관련
-*.class
-*.classpath
