@@ -1,5 +1,5 @@
-//아직 해결 못함
-
+// 수정완료 - 2차원 배열 할당과 인덱싱에 대해서 문제가 있었음
+// new int[3][4]로 만들기 3행4열의 이차원 배열 생성 & 맨끝 인덱스는 [2][3]임
 package step2;
 
 import java.util.Scanner;
@@ -10,7 +10,7 @@ public class Array9 {
 
         String[] namelist = new String[3];   // 3명의 이름
         String[] classlist = {"국어","영어","수학","총점"};
-        int[][] scorelist = new int[3][3];   // 3명에 대한 국,영,수,총점
+        int[][] scorelist = new int[3][4];   // 3명에 대한 국,영,수,총점
 
         /* 정보 입력 */
         System.out.println("이름 입력 : ");
@@ -35,9 +35,13 @@ public class Array9 {
             System.out.printf(namelist[i]+"\t");
         }
 
+        System.out.println();
+
         for (int i=0; i<classlist.length; i++){
             System.out.printf(classlist[i]+"\t");
         }
+
+        System.out.println();
 
         for (int i=0; i<scorelist.length; i++){
             for (int j=0; j<scorelist[i].length; j++){
