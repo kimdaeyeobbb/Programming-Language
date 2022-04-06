@@ -1,4 +1,4 @@
-// 아직 이해 못함
+// 클래스 연습9 - 객체배열 이해 완료 (주소값 참조 그림 떠올리기)
 package step3;
 
 import java.util.Scanner;
