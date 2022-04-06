@@ -11,7 +11,13 @@ public class GradeInputMain2 {
         int i=0;
 
         for (i=0; i<giarr.length; i++){
-            giarr[i] = new GradeInput(); // 배열에 객체값 집어 넣음. 주소값 넣음
+            giarr[i] = new GradeInput();
+            // 배열에 객체값 집어 넣음. 주소값 넣음
+            /*
+            힙에 위치한 배열 객체의 위치랑 매개변수의 위치는 다름.
+            따라서 새로이 참조하기를 워하는 객체가 생길때마다
+            계속해서 'new 클래스명'꼴로 새로 참조하게끔 만들어 주어야 함.
+            */
             giarr[i].input(sc);   // 배열에 값 할당하기 위해 input 메서드 호출
             giarr[i].tot();   // 총점
             giarr[i].avg();
