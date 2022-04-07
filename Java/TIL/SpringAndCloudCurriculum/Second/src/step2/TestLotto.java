@@ -22,6 +22,9 @@ public class TestLotto {
                     break;
                 }
             }
+            /* 알고리즘 구성
+            * 중복 여부 확인
+            * 새로 뽑은 번호가 기존위치에 존재할 경우우            * */
 
             /* 로또 번호 저장 */
             lottolist[i] = pickednum;
@@ -32,6 +35,5 @@ public class TestLotto {
         for (int i=0; i<lottolist.length; i++){
             System.out.printf(lottolist[i]+" ");
         }
-
     }
 }
