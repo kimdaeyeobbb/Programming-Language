@@ -7,6 +7,8 @@ public class TestMyDate {
         System.out.println(d1.getMonth());
         System.out.println(d1.getYear());
 
+        System.out.println(); // 간격 유지
+
         MyDate d2 = new MyDate(1,2,2000);   // 매개변수 넣어줘야 함
         System.out.println(d2.getDay());
         System.out.println(d2.getMonth());
