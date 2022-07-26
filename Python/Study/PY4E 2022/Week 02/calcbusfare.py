@@ -28,6 +28,7 @@ def busfare(age, method):
     # 올바른 지불방법을 선택하지 않은 경우
     else:
         print("카드와 현금 중 하나의 지불방법을 선택해주세요")
+        return
 
     # 결과 출력
     print()
