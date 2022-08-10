@@ -1,3 +1,4 @@
+//
 package step3;
 
 import java.util.Scanner;
@@ -8,6 +9,7 @@ public class GradeInput {
     float avg;
 
     void input(Scanner sc){
+        // 메인메서드에서 해당 메서드가 실행되는데, 매개변수를 넣어주므로 매개변수를 채워넣어줌
         System.out.println("이름: ");
         name = sc.next();
 

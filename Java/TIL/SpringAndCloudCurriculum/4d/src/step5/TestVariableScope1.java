@@ -14,6 +14,4 @@ public class TestVariableScope1 {
         System.out.println(i);
         System.out.println(this.i);   // this-> 전역변수 지칭
     }
-
-
 }

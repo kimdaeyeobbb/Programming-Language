@@ -7,7 +7,6 @@ public class OperEx {
 
     public boolean test1(){
         ++count;
-
         return true;
     }
 

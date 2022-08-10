@@ -2,7 +2,8 @@ package step2;
 
 public class TestConstructor {
     public static void main(String[] args){
-        Person p = new Person("아이유");   // 생성자 또한 만들자 말자 값을 할당해줘야 오류발생 x
+        Person p = new Person("아이유");
+        // 생성자 또한 만들자 말자 값을 할당해줘야 오류발생 x
 
         //생성자는 메모리에 놓이면 자동으로 호출
         // 메서드 - 마음대로 호출 가능. 생성자 - 메모리에 놓였을때 딱 1번만 호출 가능
