@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-- h1{hello world}+p{hello world}*5로 작성 가능 -->
+    <!-- heml,css,js는 분리해 주는 것이 좋다 (유지보수의 용이성을 위함) -->
+    <h1 onclick="alert('경고!!')">hello world</h1>
+    <p id="one">hello world</p>
+    <p>hello world</p>
+    <p>hello world</p>
+    <p>hello world</p>
+    <p>hello world</p>
+    <!-- document가 완성되지 않은 시점에서 getElementById로 one이라는 id를 select하려고 하면 적용 안됨 -->
+    <!-- 따라서 script의 위치는 보통 body 밖의 태그 바로 위에 위치시키는것이 좋다 (절대적이지는 않음) -->
+    <script src="001.js"></script>
+    <script src="test2.js"></script>
+    <script src="test3.js"></script>
+    <script src="test1-2.js"></script>
+</body>
+
+</html>
