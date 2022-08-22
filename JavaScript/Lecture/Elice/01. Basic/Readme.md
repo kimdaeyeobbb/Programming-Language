@@ -168,3 +168,31 @@ parseFloat("10.7");   // 실수 형태로 반환
 
 - 배열 객체의 맨 뒤의 데이터를 제거하기 위해 사용
 
+
+<br>
+
+#### 함수 만들고 호출하기
+
+
+```js
+/* 맞는 표현 */
+function solution() {
+  function add(x, y) {
+    return x + y;
+  }
+  return add;
+}
+
+/* 틀린 표현 */
+function solution() {
+  function add(x, y) {
+    return x + y;
+  }
+  return add();
+}
+```
+
+- 함수 안에서 함수를 리턴하고 싶은 경우, 함수를 호출하지 않고 함수명만 적도록 하자
+
+<br>
+
