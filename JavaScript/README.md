@@ -1,6 +1,6 @@
 # Reference to study
 
-1. [Hello, JavaScript: 자바스크립트 입문](https://school.programmers.co.kr/learn/courses/3)
+1. ~~[Hello, JavaScript: 자바스크립트 입문](https://school.programmers.co.kr/learn/courses/3)~~   (22.08.24)
 
 2. [자바스크립트와 웹 프론트엔드](https://school.programmers.co.kr/learn/courses/10)
 
