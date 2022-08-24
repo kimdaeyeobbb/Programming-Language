@@ -75,4 +75,6 @@ acc: 10, cur: 5, currentIndex: 4, array: 1,2,3,4,5
 15
 ```
 
+##### :bookmark: Ref
 
+- [reduce()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce#%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98)
