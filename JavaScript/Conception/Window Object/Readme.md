@@ -49,9 +49,9 @@ window.location.href = "http://google.com"   // 페이지가 구글로 이동
 
 - window.document
     - 실제 HTML/CSS에 대한 정보를 담고 있음
-    - 이를 통해 HTML/CSS에 접근할 수 있음
-          - document.body -> <body></body>
-          - document.head -> <head></head>
+    - 이를 통해 HTML/CSS에 접근할 수 있음<br>
+          - ```document.body``` -> ```<body></body>```<br>
+          - ```document.head``` -> ```<head></head>```
 
 ## 결론
 
